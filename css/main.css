@@ -2,7 +2,7 @@
 .home-body{
 	background: url("../img/moon.jpg") no-repeat center center;
 	background-size: cover; 
-	opacity: 0.5;
+	opacity: 0.7;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -141,7 +141,7 @@
   margin-top: 3.571em;
   width: 100%;
   height: 92%;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 @media (max-width: 768px) {
@@ -165,6 +165,12 @@
   color: #fff014;
 }
 
+@media (max-width: 768px) {
+  .snow-container{
+    display: none;
+  }
+}
+
 /*share页面的样式*/
 .share-body{
   position: absolute;
@@ -173,7 +179,7 @@
   height: 93%;
   overflow: hidden;
   top: 50px;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .share-body h2{
@@ -182,6 +188,7 @@
 
 .share-body h2, .share-body p{
   color: white;
+  text-shadow: 1px 1px #3c3c3c;
 }
 
 .share-body p{
@@ -214,6 +221,11 @@
 
 .share-body .container nav li{
   box-sizing: border-box;
+}
+
+.nav>li>a{
+  color: #3c3c3c;
+  font-weight: bold;
 }
 
 .smallBar{
@@ -252,4 +264,5 @@ section ul li{
 }
 section ul li a{
   color: #f0f0c8;
+  text-shadow: 1px 1px #3c3c3c;
 }
