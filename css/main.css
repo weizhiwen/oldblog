@@ -266,3 +266,28 @@ section ul li a{
   color: #f0f0c8;
   text-shadow: 1px 1px #3c3c3c;
 }
+
+/*comment页面的样式*/
+.comment-body{
+  position: absolute;
+  background: #dcdca0 url("../img/flower.jpg") repeat;
+  width: 100%;
+  height: auto;
+  top: 50px;
+}
+
+p.lead{
+  margin: 1em auto;
+  text-indent: 1em;
+  font-weight: bold;
+  width: 80%;
+}
+
+.mydivider{
+  width: 80%;
+  height: 0.1em;
+  border: 0.1em solid #8c8c78;
+  margin: 0 left;
+}
+
+
